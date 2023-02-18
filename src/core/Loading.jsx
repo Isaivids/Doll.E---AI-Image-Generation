@@ -1,8 +1,11 @@
 import React from 'react'
 import '../styles/LoadingStyles.scss'
+
 const Loading = () => {
   return (
-    <div class="loader"></div>
+    <div className="preloader">      
+      <div className="loader"></div>
+    </div>
   )
 }
 

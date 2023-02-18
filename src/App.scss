@@ -4,3 +4,17 @@
 .navbar-default {
     background-image: linear-gradient(to bottom,#2c4053 0,#2c4053 100%) !important; /* override background image gradient w/ flat color */
 }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: orangered;
+    background-color: #fff;
+    border-color: none;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link:hover{
+    color:gray
+}
